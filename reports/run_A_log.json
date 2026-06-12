@@ -1,0 +1,85 @@
+{
+  "run_id": "run_A",
+  "hparams": {
+    "run_id": "run_A",
+    "description": "基线：Adam + BatchNorm + lr=2e-4",
+    "gan_lr": 0.0002,
+    "optimizer": "Adam",
+    "norm": "batch",
+    "dropout": 0.3,
+    "epochs": 10,
+    "batch_size": 8
+  },
+  "epoch_records": [
+    {
+      "epoch": 1,
+      "D_loss": 0.9679,
+      "G_loss": 1.4815,
+      "time_s": 122.54,
+      "peak_mb": 1018.0
+    },
+    {
+      "epoch": 2,
+      "D_loss": 0.566,
+      "G_loss": 2.5794,
+      "time_s": 120.73,
+      "peak_mb": 1018.0
+    },
+    {
+      "epoch": 3,
+      "D_loss": 0.3602,
+      "G_loss": 3.699,
+      "time_s": 149.16,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 4,
+      "D_loss": 0.4661,
+      "G_loss": 3.2009,
+      "time_s": 140.54,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 5,
+      "D_loss": 0.478,
+      "G_loss": 3.2633,
+      "time_s": 151.32,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 6,
+      "D_loss": 0.5094,
+      "G_loss": 3.0885,
+      "time_s": 153.36,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 7,
+      "D_loss": 0.5071,
+      "G_loss": 3.1268,
+      "time_s": 151.1,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 8,
+      "D_loss": 0.492,
+      "G_loss": 3.1393,
+      "time_s": 150.56,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 9,
+      "D_loss": 0.579,
+      "G_loss": 2.9276,
+      "time_s": 152.06,
+      "peak_mb": 1052.0
+    },
+    {
+      "epoch": 10,
+      "D_loss": 0.542,
+      "G_loss": 2.9334,
+      "time_s": 150.85,
+      "peak_mb": 1052.0
+    }
+  ]
+}

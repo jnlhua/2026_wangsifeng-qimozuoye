@@ -1,0 +1,4 @@
+run_id,description,optimizer,norm,lr,dropout,final_D_loss,final_G_loss,total_epochs
+run_A,基线：Adam + BatchNorm + lr=2e-4,Adam,batch,0.0002,0.3,0.5420,2.9334,10
+run_B,非对称lr + InstanceNorm：D_lr=4e-4, G_lr=1e-4,Adam,instance,0.0001,0.3,0.1822,5.3550,10
+run_C,RMSprop + BatchNorm + 更强Dropout=0.5,RMSprop,batch,0.0002,0.5,0.6063,2.8465,10

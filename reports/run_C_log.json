@@ -1,0 +1,85 @@
+{
+  "run_id": "run_C",
+  "hparams": {
+    "run_id": "run_C",
+    "description": "RMSprop + BatchNorm + 更强Dropout=0.5",
+    "gan_lr": 0.0002,
+    "optimizer": "RMSprop",
+    "norm": "batch",
+    "dropout": 0.5,
+    "epochs": 10,
+    "batch_size": 8
+  },
+  "epoch_records": [
+    {
+      "epoch": 1,
+      "D_loss": 1.1779,
+      "G_loss": 1.0592,
+      "time_s": 140.57,
+      "peak_mb": 1240.0
+    },
+    {
+      "epoch": 2,
+      "D_loss": 0.8563,
+      "G_loss": 1.7001,
+      "time_s": 142.57,
+      "peak_mb": 1240.0
+    },
+    {
+      "epoch": 3,
+      "D_loss": 0.5968,
+      "G_loss": 2.6089,
+      "time_s": 141.5,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 4,
+      "D_loss": 0.3927,
+      "G_loss": 3.5895,
+      "time_s": 142.1,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 5,
+      "D_loss": 0.6272,
+      "G_loss": 2.7496,
+      "time_s": 143.06,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 6,
+      "D_loss": 0.5568,
+      "G_loss": 2.9036,
+      "time_s": 144.17,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 7,
+      "D_loss": 0.6731,
+      "G_loss": 2.6627,
+      "time_s": 142.92,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 8,
+      "D_loss": 0.5788,
+      "G_loss": 2.8181,
+      "time_s": 120.94,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 9,
+      "D_loss": 0.5205,
+      "G_loss": 3.1264,
+      "time_s": 117.15,
+      "peak_mb": 1274.0
+    },
+    {
+      "epoch": 10,
+      "D_loss": 0.6063,
+      "G_loss": 2.8465,
+      "time_s": 115.37,
+      "peak_mb": 1274.0
+    }
+  ]
+}
